@@ -1,0 +1,12 @@
+1. 
+Q: What does git add do, and why is it necessary before committing?
+A: It tells git which files to stage so that their changes could be committed to the repo.
+2. 
+Q: What does git commit do, and why is it necessary before pushing?
+A: Git commit formally saves the changes of the file that was added to the repo. If you don't run git commit, no changes would be pushed to the repo.
+3. 
+Q: What is the difference between git clone and git pull, and when should each be used?
+A: Git clone is for copying a repository that you do not have to your own machine. It should only be done once. Git pull is for retrieving any updates or changes that were made by other people to the repository since you first cloned the repository.
+4. 
+Q: How can you verify that a git pull was successful after making changes on GitHub?
+A: Run git status to see if the branch that you are in is up to date with the repository.
